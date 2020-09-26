@@ -127,7 +127,7 @@ body{
 	padding:32px 60px 32px 32px;
 	overflow: auto;
 
-	height: 127px;
+	height: 130px;
 	background-color: #fff;
 	color: #7d868e;
 clip-path: polygon(95% 0, 100% 40%, 100% 100%, 0 100%, 0 0);
@@ -313,7 +313,7 @@ line-height: 1.75;}
 
 .css .card{
 	clip-path: polygon(95% 0, 100% 5%, 100% 100%, 0 100%, 0 0);
-  	height: 1335px;
+  	height: 655px;
 }
 
 .outline:before{
