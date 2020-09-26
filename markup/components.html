@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Components</title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/components.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                    <a class="logo" href="index.html">Mylib</a>
+                    
+                	<nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a href="elements.html">elements</a>
+                        </li>
+                        <li class="nav-list-item active">
+                            <a href="components.html">Components</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#">Layouts</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#">Drafts</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#">Documentation</a>
+                        </li>
+                    </ul> 
+
+                </nav>   
+                
+            </header>
+             <main class="main">
+                <nav class="sidebar">
+                    <ul class="sidebar-list">
+                        <li class="sidebar-list-item active">
+                            <a href="#">chevron menu</a>
+                        </li>
+                        <li class="sidebar-list-item">
+                            <a href="#">dropdown menu</a>
+                        </li>
+                        <li class="sidebar-list-item">
+                            <a href="#">modal box</a>
+                        </li>
+                        <li class="sidebar-list-item">
+                            <a href="#">alerts</a>
+                        </li>
+                       
+                    </ul>
+                </nav>
+                <div class="content">
+                    
+                    <h2 class="title">Chevron menu</h2>
+                     <section class="section">                                                    
+                       <div class="cards">
+                        <div class="card-container">
+                            <div class="card info">
+<pre><code>Possible to use on gradient background
+Easy to use opacity for items background
+Cross-browser</code></pre>
+                            </div>
+                        </div>
+                        </div>
+                       </section>
+                       <section class="section chevron-gradient">
+                         <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#">about</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">careers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">faq</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+        </nav>
+                       </section>
+                       <section class='section'>
+                            <div class="card-container outline html">
+                               <div class="card">
+
+<pre><code>&lt;ul class=”list”&gt;
+&lt;li&gt;&lt;a href=”#”&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”#”&gt;Careers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”#”&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”#”&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre> 
+ 
+                               </div>
+                           </div>
+                           <div class="card-container outline css">
+                               <div class="card">
+<pre><code>div.menu-body-gradient  {
+  height: 96px;
+  padding: 2px 0;
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);
+}
+ul.list-gr {
+  margin:0;
+  padding: 0 60px;
+  text-align: right;
+}
+ul.list-gr li {
+  display: inline-block;
+  position: relative;
+  padding: 30px 25px 29px 25px;
+  margin: 0 20px 0 25px;
+  background-color: #ffffff;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+}
+ul.list-gr li:hover {
+  opacity: 0.7;
+}
+ul.list-gr li::after {
+  position: absolute;
+  top:0;
+  left: 100%;
+ content: "";
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 48px 0 48px 25px;
+ border-color: transparent transparent transparent #ffffff;
+}
+ul.list-gr li > a {
+  vertical-align: top;
+  text-decoration: none;
+  color: #000000;
+}
+ul.list-gr li > a::after {
+  position: absolute;
+  left: -25px;
+  top: 0px;
+ content: "";
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 0 25px 48px 0;
+ border-color: transparent #ffffff transparent transparent;
+}
+ul.list-gr li > a::before {
+  position: absolute;
+  left: -25px;
+  top: 48px;
+ content: "";
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 0 0 48px 25px;
+ border-color: transparent transparent #ffffff transparent;
+}
+</code></pre>  
+                               </div>
+                           </div>
+                       </section>
+                    </div>
+                
+            </main>
+        </div>
+    </body>
+</html>
+
