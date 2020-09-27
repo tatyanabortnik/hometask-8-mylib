@@ -112,6 +112,10 @@ body{
 	color: #6a75ca;
 }
 
+.nav-list-item a:hover {
+	color: #6a75ca;
+}
+
 .content{
 	padding: 100px 0;
 }
